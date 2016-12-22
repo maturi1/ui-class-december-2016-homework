@@ -1,0 +1,40 @@
+Sreeja Maturi
+
+1.	What is version control tool?
+Version control is a system which records and changes to a file or set of files overtime, by that we can see the specific version of the files later. For example, if a web designer wants to know about the version of image or layout which is used in the project it can easily identified by using version control tool. It allows to return files to previous state, not only that we can return the whole project to the previous state. We can know the person who created a problem or an issue so that we can modify or come out of with a solution.
+
+2.	What is repository?
+Repository is a storage location in which many of the software packages were retrieved and installed in computer. Depending on whether the version control system in use is distributed or centralized, the whole set of information in the repository may be duplicated on every user's system or may be maintained on a single server. It is directly accessible to the user without having to travel across the network.
+
+3.	Why do we need to use repository in software development?
+We need to use some software’s while we are working on any project by using repository we can directly install the software what we needed and use them to develop the project.
+
+4.	What is GIT?
+GIT is version control tool used to manage the code in the repository. it changes the computer files and coordinating work on those files among multiple people. 
+GIT means global information tracker, the latest version is 2.11.0. GIT can also be used as server out of the box in which it helps 
+to add access control 
+display the contents of the repository through web.
+Manages the multiple repositories.
+GIT repository can clone the shared files and also accessed by other persons.
+
+5.	What is GITHUB?
+Github is repository hosting server which stores the data. Github is mostly used for coding process and it also supports the documentation, commits history, Photoshop’s, issue tracking and many more.
+
+6.	Difference between GIT and GITHUB?
+GIT is system for version control primarily used by the programmers and the other to write code. It runs on the command line on local machine. It allows us to keep track on files and modifications to those files called repository. In git everybody can works on independently on those files, merges the changes together.
+Github is website allows us to upload git repositories online. Github is used to provide backup to the files, visual interface for navigate purpose and collaborate easily.
+GIT is not required to use GITHUB, however it is common to use GITHUB if we using GIT.
+
+7.	What is pull, push, commit in GIT?
+Pull: downloading the newest changes from remote server to the local repository and checking the code from the repository.
+git pull [options] [<repository> [<refspec>…]]
+Push: uploading the changes from local repository to remote repository.
+The syntax is usually git push <remote> <branch>. A remote is basically the address of a cloned repository. 
+Commit: uploading the changes from file system to the local repository.
+git commit -m “message here”
+-m indicates the following section of a command should be read as a message.
+
+8.	What are merge conflicts?
+Merge conflicts may occur when two different people modified the same line of a code then some manual overwriting of code is needed to correct it.
+We can resolve this merge conflict with a new commit before we merge branches.
+ 

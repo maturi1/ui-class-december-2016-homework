@@ -1,0 +1,87 @@
+1.	How to resolve merge conflicts?
+Merge conflicts may occur when two persons are changing on the same line or the file is removed when the other person is working on it.
+Competing line change merge conflict:
+When same line is edited by two different people then merge conflict occurs to resolve this we need to follow these steps. For suppose when two or more people are editing the same file name README.md merge conflict occurs then
+Open git.
+Navigate into the local git repository that has merge conflict.
+Generate the list of files which are merged.
+Open sublime text editor in that and navigate the files that are affected by merge conflicts.
+Then search for the conflict marker >>>> we will see the changes from the head or base branch after the line <<<<<<< HEAD.
+Delete the conflict markers and make the changes.
+Stage the changes.
+Commit the changes with a comment.
+now merge the branches on the command line or push your changes to your remote repository on GitHub and merge your changes in a pull request.
+
+2.	What is html? How to create a html document?
+HTML is hypertext markup language used to develop web designs which are viewed by anyone who has internet connection. HTML consists of series of short codes typed into a text file known as tags. The text is saved as html file and viewed through a browser.
+Creating a html document:
+Open a notepad in your system.
+Create a template in notepad by adding all html tags to convert the word document to html.
+Copy and paste the contents of the word document into notepad document between the <p> tag and </p> tags.
+Save the file as html document.
+The .htm file is ready to be attached.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+The <!DOCTYPE html> declaration defines this document to be HTML5
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the document
+The <title> element specifies a title for the document
+The <body> element contains the visible page content
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+3.	What is doctype?
+The doctype represents the document type. It helps the browser to display the web pages. It appears at the first line of the HTML page with in the tags. The declaration of doctype is <!doctype html>, it is not case sensitive.
+
+4.	What is an element in html?
+HTML elements consists of start tag and end tag with the content inserted between the tags.
+     <tagname> content… </tagname>
+<h1>first heading </h1>             <h1> means heading 
+<p> first paragraph</p>             <p>indicates paragraph
+<br> 
+The br means break element which indicates the line break. Elements with no content is known as empty elements.
+
+5.	What is an attribute in html?
+Attributes provide additional information to the HTML elements. These are specified in the start tag.
+Language attribute: the lang attribute is declared within the <html> tag.
+Declaring of language is important for the readers and search engines.
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+</body>
+</html>
+Title attribute is added in <p> tag which displays the tooltip when we mouse over the paragraph.
+<p title="I'm a tooltip">
+This is a paragraph.
+</p>
+Html links are declared within the <a> tag. The link address is specified in href attribute.
+<a href="http://www.lynda.com">This is a link</a>
+Images are defined with in the <img> tag.  The filename of the source and size of the image are all provided in this attributes.
+<img src="sabcd.jpg"  width="104"  height="142">
+The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">.
+
+
+6.	Create a simple html page? Write code.
+<!DOCTYPE html>
+<html>
+<h1>
+<title>Hello World</title>
+<body>
+
+<h1>UI class december 2016</h1>
+
+<p>welcome to the class</p>
+               </body>
+ </html>
+

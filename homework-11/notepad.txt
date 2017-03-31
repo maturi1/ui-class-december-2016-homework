@@ -1,0 +1,26 @@
+Homework-11
+1.	Display property values?
+Inline:  in this it will not accept the width and height properties. It shows in the same line.
+Inline-block:  it accepts both width and height properties. It also shows in the same line.
+Block: it accepts both width and height properties. It shows the result in new line.
+
+2.	Display none and visibility hidden differences in css? When do you use either one of them?
+Display none means it does not display anything like it does not accept any width and height and visibility hidden will occupy width and height. Both will not able to see the content.
+3.	Css box model?
+Content
+Padding: padding is the white space between the border and the content.
+Border: we can add color to the border style. It is between the padding and margin
+Margin: it is around the border. It does not have color. It accepts both positive and negative values.
+4.	Box sizing in css?
+Box-sizing property allows us to include the padding and border in an element's total width and height.
+.div2 {
+    width: 300px;
+    height: 100px;    
+    padding: 50px;
+    border: 1px solid red;
+}
+5.	What SASS?
+Sass (syntactically awesome stylesheets) is a style sheet language. Sass is a scripting language that is interpreted into Cascading Style Sheets (CSS). Sass Script is the scripting language itself.
+Sass Script provides the following mechanisms: variables, nesting, mixins, and selector inheritance.
+6.	What is preprocessor? Why do you need to use preprocessor?
+Sass allows some features which are not in css like variables, nesting, mixins, inheritance and other. Once Sass is installed, we can run sass input.scss output.css from terminal.we can watch either individual files or entire directories. In addition, we can watch folders or directories with the --watch flag. By using preprocessor, it makes easy to css and we can use many features. 

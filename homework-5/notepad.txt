@@ -1,0 +1,87 @@
+Homework 5:
+1.	Explain all input types with examples?
+By using <input type = “text”> we can give input in html.
+<input type="text" name="firstname"><br>
+We can use many input types like we can create passwords, submit button, reset, checkbox, radio.
+<input type="password">
+<input type="submit">
+<input type="reset">
+<input type="radio">
+<input type="checkbox">
+HTML5 added several new input types:
+color
+date
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week
+2.	Explain all input attributes?
+There are many input attributes.
+Value:  the attribute which specifies the initial value of input field.
+The readonly attribute specifies that the input field is read only, cannot be changed.
+The disabled attribute specifies that the input field is disabled.
+The size attribute specifies the size (in characters) for the input field.
+The maxlength attribute specifies the maximum allowed length for the input field.
+The autocomplete attribute specifies whether a form or input field should have autocomplete on or off. When autocomplete is on, the browser automatically complete the input values based on values that the user has entered before.
+The novalidate attribute is a <form> attribute. It will not be validated.
+The autofocus attribute specifies that the input field should automatically get focus when the page loads.
+The form attribute specifies one or more forms an <input> element belongs to.
+The form attribute specifies one or more forms an <input> element belongs to.
+The formenctype attribute specifies how the form data should be encoded when submitted (only for forms with method="post").
+The formmethod attribute defines the HTTP method for sending form-data to the action URL.
+The formnovalidate attribute overrides the novalidate attribute of the <form> element.
+The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
+The height and width attributes specify the height and width of an <input type="image"> element.
+The list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.
+The min and max attributes specify the minimum and maximum values for an <input> element.
+The multiple attribute specifies that the user can enter more than one value in the <input> element.
+The pattern attribute specifies a regular expression that the <input> element's value is checked against.
+The placeholder attribute specifies a hint that describes the expected value of an input field (a sample value or a short description of the format).
+The required attribute specifies that an input field must be filled out before submitting the form.
+The step attribute specifies the legal number intervals for an <input> element.
+
+3.	What are semantic elements?
+The elements which describes its meaning for both browser and developer are known as semantic elements. Like <form>, <table> , <article>…
+
+4.	Difference b/w article section div?
+<article> element escribes the independent and 
+self-contained content. It should be read independently and different from other web sites. Examples to use <article>
+Forum post
+Blog post
+Newspaper article
+The <section> element defines section in a document. "A section is a thematic grouping of content, typically with a heading." The homepage will normally split into different sections like introduction content conclusion.
+<div> is non-semantic element which does not say anything about its content.
+
+5.	Explain with examples about semantic new elements?
+<article>	Defines an article
+<aside> 	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code               listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>    	Specifies the main content of a document
+<mark> 	Defines marked/highlighted text
+<nav>	              Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	              Defines a date/time
+6.	What are forms and what is form validation in HTML?
+Forms are used to collect the input data from the user. <form> tag is used to collect the information. Forms consists of form elements and are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.
+
+7.	Difference b/w html4 and html5? Explain.
+There are lot of changes occurred in html5
+Many elements were removed and added from html4 to html5. 
+Semantic elements are newly added in html5 which are not used in html4.
+Media tags and attributes.
+New html5 dom events are added.
+Graphic tags are added.
+Doctype definition is changed we need not to provide dtd
+Html5 input validation. These are all the main difference in html5 which are not present in html4.
+

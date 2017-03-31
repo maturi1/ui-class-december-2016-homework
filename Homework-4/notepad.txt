@@ -1,0 +1,92 @@
+Homework 4
+1.	How to create a list in html? Order list and unorderlist?
+List is of two types.
+Order lists
+Unordered list
+Order list: In order list, every item will display in order. Order lists starts with <ol> tag and each list item is started with <li> tag.
+Ex: <ol>                                                         output: 1. breakfast
+       <li>breakfast</li>                                                2. lunch  
+        <li>lunch</li>                                                      3. dinner
+         <li>dinner</li>
+</ol>
+Type attribute defines the type of the list to display.
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers.
+Unordered list: In this the items are not in order they will display with bullets, circles, disc etc.
+                             Unordered list represents with <ul> tag.
+Ex: <ul>
+<li>Monday</li> 
+<li>Tuesday</li>
+<li>Wednesday</li>
+</ul>
+output:
+•	Monday
+•	Tuesday
+•	Wednesday
+
+
+2.	How to include images in html?
+By using <img> tag we can add images into html. We need to include the source in image to display. 
+Syntax: <img src=”/url” alt=”file name” style = “width;height;”>
+To use an image as a link, simply nest the <img> tag inside the <a> tag.
+
+3.	How to take user input in html?
+By using <input type = “text”> we can give input in html.
+<input type="text" name="firstname"><br>
+We can use many input types like we can create passwords, submit button, reset, checkbox, radio.
+<input type="password">
+<input type="submit">
+<input type="reset">
+<input type="radio">
+<input type="checkbox">
+HTML5 added several new input types:
+color
+date
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week
+4.	How to have links to different web pages and link to different part of same webpage?
+               By using <href> tag we can link up to different webpages.
+               <a> element to define a link
+               href attribute to define the link address
+target attribute to define where to open the linked document
+<img> element (inside <a>) to use an image as a link
+ 	id attribute (id="value") to define bookmarks in a page
+href attribute (href="#value") to link to the bookmark
+External pages can be referenced with a full URL or with a path relative to the current web page.
+
+
+5.	What is head, body, html element and why do we need them in page? 
+Head : The <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
+
+The <head> element is placed between the <html> tag and the <body> tag.
+The <body> element contains the visible page content.
+The <html> element is the root element of an HTML page.
+First to create a webpage we use HTML. To display the content in webpage we should use all these elements then the user can easily see the webpage.
+
+6.	What are semantic element? Describe about each element?
+The elements which describes its meaning for both browser and developer are known as semantic elements. Like <form>, <table> , <article>…
+The new elements are:
+<article>	Defines an article
+<aside> 	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code               listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>    	Specifies the main content of a document
+<mark> 	Defines marked/highlighted text
+<nav>	              Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	              Defines a date/time

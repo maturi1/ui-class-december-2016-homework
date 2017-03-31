@@ -1,0 +1,24 @@
+/*if multiples 3 else print fizz, else if multiples of 5 print buzz, else if multiples of both 3 and 5 print fizzbuzz elsse printnumber?*/
+<!DOCTYPE html>
+<html>
+
+
+<body>
+<h>multiples of 3 and 5</h>
+<script>
+
+	var i;
+	for(i=1;i<=100;i++)
+	{
+		if((i%3 == 0)&&(i%5 == 0))
+			console.log("fizzbuzz");
+		else if(i%3 == 0)
+			console.log("fizz");
+		else if(i%5 == 0)
+			console.log("buzz");
+		else
+			console.log(i);
+	}
+</script>
+</body>
+</html>

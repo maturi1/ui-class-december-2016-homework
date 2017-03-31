@@ -1,0 +1,51 @@
+Jquery methods:
+.css()
+This method will get and set the css properties of elements.
+.addclass
+The add method will add the class to each element in the set of matched elements.
+.Removeclass
+This method will remove one class, multiple classes or all classes of each element in set of matched elements.
+.toggle(‘className’)
+Add or remove the single or multiple classes depending on either class presence or the value argument, of each element from set of matched elements.
+.hide
+It hides the selected elements.
+.show
+It shows the hidden elements.
+show() works on elements hidden with jQuery methods and display:none in CSS.
+.fadeIn(timeInMilliSeconds):
+fadeIn() method is used to fade in a hidden element.
+fadeIn(speed)
+speed will be fast, slow or milliseconds.
+.fadeOut(timeInMilliSeconds):
+fadeOut() method is used to fade out a visible element.
+fadeout(speed).
+.insertAfter: inserts HTML elements after the selected elements.
+insertAfter(selector)
+selector specifies where to insert the content.
+.append
+inserts specified content at the end of the selected elements.
+What is an event handler?
+Event methods trigger or attach a function to an event for the selected elements. Those functions call event handler. There are many methods to handle events.
+Bind(), blur(), click(), unbind(),delegate(), die() etc.. 
+What is event delegation in java script and jquery?
+In jQuery Event delegation allows us to attach a single event listener, to a parent element, that will fire for all descendants matching a selector, whether those descendants exist now or are added in the future.
+Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.
+.delegate( selector, events )
+Selecter is to filter the elements
+Events are the plain objects of one or more and functions to execute for them.
+JavaScript event delegation is a simple technique by which, add a single event handler to a parent element in order to avoid having to add event handlers to multiple child elements.
+Event handler methods:
+.Click:  attaches the click event
+.Bind: attach a handler to an event.
+.Delegate: Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.
+.delegate(selector,events)
+.Live: Attach an event handler for all elements which match the current selector, now and in the future.
+.on: attaches event handlers to elements.
+
+JQuery chaining method:
+Chaining method allows multiple jQuery elements at a single statement.
+$("#p1").css("color", "black").slideUp(2000).slideDown(2000);
+In this example all these commands will execute one by one first the command will change to red color and then it slideup and slide down.
+
+
+

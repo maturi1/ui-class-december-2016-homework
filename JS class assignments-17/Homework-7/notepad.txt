@@ -1,0 +1,8 @@
+strings in javascript and methods associated to strings?
+ a string which stores a group of characters. strings are written in single or double quotes.
+ ex: var name = "java script";
+ The backslash escape character turns special characters into string characters.
+ ex: var text = "hello \"raj\" how are you?"
+ we can use strings as objects also.
+ string methods:
+ 

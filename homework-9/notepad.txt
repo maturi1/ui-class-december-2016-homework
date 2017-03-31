@@ -1,0 +1,92 @@
+Homework -9:
+1.	What are media queries?
+Media queries are used to check many things like the width length and the capacity of a device. It contains media type and many expressions.
+@media not|only mediatype and (expressions) {
+    CSS-Code;
+}
+It returns true when specified matches are satisfied and all the media types are matched. Some of the media types are:
+all	      Used for all media type devices
+print	      Used for printers
+screen  	      Used for computer screens, tablets, smart-phones etc.
+speech	       Used for screenreaders that "reads" the page out loud.
+@media screen and (min-width: 380px) {
+    body {
+        background-color: lightgreen;
+    }
+The output will be seen if we resize our window it shows the effect.
+
+2.	Properties of min-width, max-width, resolution, screen, print, speech.
+min-width	The minimum width of the display area, such as a browser window.
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+In this when the web page will minimum to 480 px it will automatically changes the color.
+max-width	The maximum width of the display area, such as a browser window.
+@media only screen and (max-width: 500px){
+}
+The maximum screen length will be 500 not more than will not beworked.
+resolution	The resolution of the output device, using dots per inch or dots per centimetre.
+@media print and (min-resolution: 300dpi)
+screen  	      Used for computer screens, tablets, smart-phones etc.
+print	      Used for printers.
+speech	       Used for screenreaders that "reads" the page out loud.
+
+3.	What are the position property values in css(static, relative, absolute, fixed) explain differences?
+The position property specifies the type of positioning method used for an element.
+h2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+static	Default value. Elements render in order, as they appear in the document flow
+absolute	The element is positioned relative to its first positioned (not static) ancestor element	
+fixed	The element is positioned relative to the browser window
+relative	The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position	
+initial	Sets this property to its default value. 
+inherit	Inherits this property from its parent element. 
+4.	What is float and clear property in css?
+Float : to move an image or text from any side we can use float property. We can float left, right, intial, none.
+Syntax: img {
+  Float: right;
+}
+The image will move to right.
+Clear.
+The clear property specifies on which sides of an element floating elements are not allowed to float.
+clear: none|left|right|both|initial|inherit;
+
+5.	what is bootstrap grid system? Rows and columns?
+Bootstrap is framework to develop the design for the mobile first websites.
+Bootstrap grid system allows 12 columns all over the page.
+If we want to use wide space, we can combine the 2 or more columns. So we can divide 12 columns into 2,3,4 any number and we can use 12coloumns as single column.
+Grid Classes
+The Bootstrap grid system has four classes:
+xs (for phones)
+sm (for tablets)
+md (for desktops)
+lg (for larger desktops)
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+</div>
+
+6.	what are xs,sm,md,lg?
+xs: xs is bootstrap grid system. The screen size will be small so it is used to identified and used for phones.
+Sm: small screen is for tablets.
+<div class="col-sm-3">....</div>
+<div class="col-sm-9">....</div>
+Md: median size of screen is for desktops.
+<div class="col-sm-3 col-md-6">....</div>
+<div class="col-sm-9 col-md-6">....</div>
+Lg: large size of screen is for bigger desktops.
+<div class="col-sm-3 col-md-6 col-lg-4">....</div>
+<div class="col-sm-9 col-md-6 col-lg-8">....</div>
+
+
+
+
+
+
+
+

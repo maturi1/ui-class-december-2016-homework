@@ -1,0 +1,50 @@
+        Homework 12
+1.What are the datatypes in javascript?
+There are two different datatypes
+1.primitive datatype
+2.non primitive datatype
+Primitive datatype includes
+String : string represents  sequence of characters. 
+Ex: var = “welcome to javascript “ ;
+Here the datatype recognized as string because the var consists of full of characters. The strings are written in single or double quotes.
+Number:  represents the numeric value.
+Ex: var = 1234;
+Here the datatype is number as var consists of numbers.
+Boolean: represents Boolean value either true or false. True means 1 and false means 0.
+Ex: var x= true;
+      Var y= false;
+Null : represents no value.
+Undefined: represents undefined value.
+2.non primitive datatypes:
+a. object: represents instance through which we can access members.
+b. array: represents group of similar values.
+c. RegExp:  represents regular expressions.
+
+2. what are the difference between java and javascript especially in terms of variables?
+       The difference between java and javascript are;
+1.	Java is object oriented programming language and javascript is object oriented programming scripting language.
+2.	Java creates applications that run in virtual machine or browser while javascript is written with in the HTML and they run on a browser only.
+3.	Java codes need to be compiled while javascript is In text.
+All JavaScript variables are untyped and they do not need to be declared. JavaScript has two kinds of variables:
+
+local variables - variables that are local to a function invocation, and
+instance variables - variables that are members of an object.
+All variables other than parameters and variables declared with the keyword var are global variables. They are instance variables of the window object.
+In Java there is different datatypes like int, float, string, etc and we have to specify datatype with variable while declaring.
+
+4.	Why do we use javascript in web pages?
+Javascript is easy to implement and we need write the code in HTML which it is wriiten in <script>. In html only web pages will be created if we use javascript will provide functionalities.
+JavaScript can load content into the document if and when the user needs it, without reloading the entire page.
+
+5.	How to include javascript in to webpages?
+Javascript will be included in <script> tags. 
+Ex: <script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+6.	Where to include javascript In webpages and why?
+Javascript will be written in <script> tags where it can be used in both ways internally or externally.
+In internal script we need to write the code in html document page.
+In external script we can write the code in script.js file and then we can include this code in html document by giving src file part.
+If we write js code internal or document level then it is very hard to debug the code and moreover if there is any error then we have to always edit html file.
+If we write js code externally then it can be easily developed and maintained.

@@ -1,0 +1,96 @@
+Homework 1:
+1)	Convert binary number to decimal 10101010, 100 ,101
+100:
+Let start with the last digit in the given number. To covert binary into decimal we need to multiply each digit with the 2^ power.
+In the given example, last digit is 0. So we need to start from it and multiply last digit with 2^ series. Like 0*2^0
+And then we have another 0 that will be multiplied with 2^1.  Like that 1 will be multiplied with 2^2.
+So after multiplying with 2 power series we need to add all those numbers. The number will be the decimal number.
+100     1*2^2+0*2^1+0*2^0
+             4+0+0 = 4
+4 is the decimal number for 100.
+10101010:   1*2^7 + 0*2^6 + 1*2^5 + 0*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0
+                       128     +     0      +    32     +  0         +   8       + 0          +  2         + 0
+                       170
+Decimal number of 10101010 is 170.
+101 :     1*2^2 + 0*2^1 + 1*2^0
+               4 + 0 + 1
+                5       
+ Decimal number of 101 is 5.
+
+2) Convert decimal number to binary number 101,131, 7, 1035
+Steps:
+1.Divide the decimal number by 2.
+2.Get the remainder from Step 1 as the rightmost digit (least significant digit) of the binary number.
+3. Divide the quotient of the previous is divide by 2.
+4. Record the remainder from Step 3 as the next digit.
+Repeat the 3 and 4 steps until we reach the remainder with 1 or 0.
+Then arrange the remainders from the bottom to the top. So, that the first remainder becomes the least significant digit (LSD) and the last remainder becomes the most significant digit (MSD). We will get the binary number.
+101:                     result                    remainder
+101/2                    50                                1
+50/2                      25                                0
+25/2                      12                                1
+12/2                       6                                  0
+6/2                         3                                  0
+3/2                         1                                  1
+1/2                         0                                  1
+  The binary number for 101 Is 1100101.
+
+131:                    result                      remainder
+131/2                 65                                   1
+65/2                    32                                  1
+32/2                    16                                  0
+16/2                      8                                   0
+8/2                        4                                    0
+4/2                        2                                    0
+2/2                         1                                   0
+1/2                          0                                   1
+ The binary number for 131 is 10000011
+7:    7/2                  3                                  1
+        3/2                  1                                  1
+         1/2                  0                                  1
+The binary number for 7 is 111.
+1035: 1035/2           517                     1
+            517/2             258                     1
+            258/2             129                     0
+            129/2              64                       1
+              64/2              32                       0
+              32/2               16                      0
+               16/2                8                      0
+                 8/2                 4                      0
+                4/2                  2                      0
+                 2/2                 1                      0
+                 1/2                 0                      1
+The decimal number for 1035 is 10000001011.
+                             
+3) Convert characters to ASCII code ‘Hello’ ascii charter code
+	“Hello Everyone how are you doing today?’
+               Hello: in this word we divide each letter and compare to the decimal numbers.
+                 H               e             l            l           o
+                72              101        108     108       111
+               Hello Everyone how are you doing today?
+072 101 108 108 111       032      069 118 101 114 121 111 110 101            032            104 111 119          032 097 114 101            032         121 111 117           032            100 111 105 110 103             032           116 111 100 097 121     063
+
+4)	ASCII to decimal 74,65,86,65 
+74 : J          65 : A        86 : V          65 : A
+The given decimal number are converted in ascii code and result is JAVA.
+
+5)	Key value pairs and why do we use them?
+The objects are different in javascript in which objects are associative array called hash tables. These objects store key value pairs. 
+An empty object (you may also read as empty associative array) is created with one of two syntaxes:
+              1. o = new Object()
+2. o = { }  // the same
+It stores any values by key which you can assign or delete using “dot notation”
+Syntax:         {key 1 : value 1, key 2 : value 2, key 3 : value 3….}
+
+Ex:      menusetup = {
+                    Width : 100,
+                     Height : 100,
+                     Title : “menu”
+}
+Output:      
+ 
+	key     value
+Width	    100
+Height   	100
+Title	    menu
+

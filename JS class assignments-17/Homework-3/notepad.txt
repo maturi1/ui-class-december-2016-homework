@@ -1,0 +1,58 @@
+Homework 3:
+1)	Write explanation for the logical operators and what will it return.
+The AND operator (&&) returns true if both expressions are true, otherwise it returns false.
+{ } && false  
+In this case, both expressions are not true so it returns false.
+
+{ } || true 
+The OR operator (||) returns true if one or both expressions are true, otherwise it returns false.                   [object Object]
+
+Undefined || NaN
+The Boolean value of undefined and NaN is false. So, in OR operator false || false returns false. The output of the above expression is NaN.  
+            
+“0” || true    
+                     0
+“ “ || true      
+The Boolean value of empty string is false. But in this expression OR operator is used, if one of the statement is true it returns true. 
+
+-infinity && true
+     nothing
+2)	typeof operator in javascript? Examples on how you use it?
+Typeof operator is used to find the type of javascript. It returns the type of a variable or expression.
+Ex: typeof “sri”;     output: string
+typeof 3.14                // Returns "number"
+typeof true                // Returns "boolean"
+typeof false               // Returns "boolean"
+The typeof operator can return one of two complex types:
+function
+object
+
+3)	add, subtract, multiply, divide two variables both string and numbers. What is the type of result?
+ADDITION: if we add two variables the typeof of both variables returns number.
+Ex: typeof (1 + 2);                     //returns number
+      typeof (“sri” + 1);                //returns string
+      typeof(“1” + “sri”);             //returns string.
+If we use “” for numbers also it declares as string.
+Subtraction:  if we subtract both variable and string it returns as number. If we subtract two characters it returns NaN.
+Ex: typeof( “sri” –  2);                //returns number
+Multiplication: if we multiply two numbers it shows the result number.
+Ex: typeof( 3 * 4);                   //returns number
+Division:  divides the numbers.
+Ex: var x = 6;
+       Var y = 2;
+        Var z = x/y;
+Output:   3
+
+4)	operator precedence?
+It means the operators with higher priority will evaluate first. Addition subtraction multiplication division module these are all the arithmetic operations.
+Multiplication and division has the highest priority than the addition and subtraction.
+Precedence can be changed if we use parenthesis between the numbers then it has highest priority.
+Ex: var x = 25 * 4 + 1;
+The output will be 101 as first multiplication will be evaluated b/w 25 and 4 then the result will be added by 1. Result will be 101.
+Var x = 25 * (4 + 1);
+In this case output will be 125 as it provides parenthesis b/w 4 and 1, so it evaluate first and multiplied by 25.
+‘1’ + 2 + 3
+In this example 1 is consider as string and remaining are numbers. 2 and 3 are added result is 5 and string is added to the 5. Result is 15.
+
+‘1’ + ‘2’ * ‘3’
+In this example multiplication is done first as it has highest priority then the string is added to the result. Output is 16.

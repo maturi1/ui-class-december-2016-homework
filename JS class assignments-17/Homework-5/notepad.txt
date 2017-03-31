@@ -1,0 +1,5 @@
+5) can we have if condition in a while loop?
+  yes we can use if condition in while loop. 
+
+  6) what are infinite loops? how can we avoid them in program?
+     when we dont give any condition in a program then it will execute continuously infinite times to avoid that situation we need to give condition then loop will break. 

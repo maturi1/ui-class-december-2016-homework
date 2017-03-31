@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<head>javascript loops</head>
+<p>while loop</p>
+<p id="demo"></p>
+<p>do while loop</p>
+<p id="demo1"></p>
+<p>for loop</p>
+<p id="demo2"></p>
+<script>
+	var s = "";
+	var i = 0;
+	while(i < 5)
+	{
+		s += "<br>the number is" + i;
+		i++;
+	}
+	document.getElementById("demo").innerHTML = s;
+	console.log(s);
+	var h = "";
+	var j = 0;
+	do{
+   h += "<br>the number is" + j;
+   j++;
+	}while(j < 5);
+	document.getElementById("demo1").innerHTML = h;
+	console.log(h);
+	var k;
+	var l = "";
+	for(k=0;k<10;k++)
+	{
+    l += "<br>the number is" +k;
+	}
+	document.getElementById("demo2").innerHTML = l;
+	console.log(l);
+</script>
+
+</body>
+</html>

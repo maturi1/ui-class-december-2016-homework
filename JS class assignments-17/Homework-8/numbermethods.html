@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+var i = 36324.64486;
+var j = "2356";
+var k;
+var r = Number.isFinite(i); //checks the given value is finite or not.
+console.log(r);
+r = Number.isNaN(i); //value to be tested for NaN.
+console.log(r);
+r = Number.isInteger(i); //checks the value is integer or not.
+console.log(r);
+r = Number.isSafeInteger(Math.pow(2,33)); // checks the given integer is safe or not. safe integer consists of all -(253 - 1) inclusive to 253 - 1 inclusive
+console.log(r);
+r = Number.parseFloat('3.14');
+console.log(r);
+r = Number.parseInt("john",[3]);
+console.log(r);
+r = i.toExponential(2);
+console.log(r);
+r = i.toFixed(3);
+console.log(r);
+r = i.toLocaleString();
+console.log(r);
+r = i.toPrecision(5);
+console.log(r);
+r = i.toString(2);
+console.log(r);
+
+console.log(typeof i);
+</script>
+
+</body>
+</html>

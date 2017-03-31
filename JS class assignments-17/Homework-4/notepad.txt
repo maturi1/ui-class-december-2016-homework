@@ -1,0 +1,94 @@
+HOMEWORK 4:
+1)	Pre/post increment and pre/post decrement operators. Explain with examples?
+Post Increment: increase an integer value by one. It defines as ++
+Ex: var a=1;
+      a++;
+a value will be incremented and output is 2.
+Pre increment: it will increment first before the assigned value.
+Ex:  var a = 9;
+       Var b = ++a;
+Output: a = 10 
+               b =10 
+post Decrement: decreases an integer value by one. It defines as –
+Ex: var a=1;
+       a--;
+a value will be 0.
+Pre decrement: decrease before the value is assigned.
+Ex: var a = 1;
+       Var b = --a;
+ o/p: a = 0;
+          b = 0;
+2)	While loop, do while, for loop with flow charts and examples?
+While loop: The while loop loops through a block of code if a specified condition is true.
+Syntax: while (condition)
+{
+Statements to be executed
+}
+Ex: while (i < 10) {
+    Console.log( "The number is " + i);
+    i++;
+}
+Do while loop: This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop if the condition is true.
+do{
+code to be executed;
+} while (condition);
+Ex: var i=0;
+       do {
+Console.log(“ the number is” i);
+} while (i<5);
+
+              For loop:  to run the same code again and again without changing the code but with different value then we will use loops. For loop is one of them which through a block of code a number of times.
+            Syntax: 
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+Statement 1 is executed before the code block starts.
+Statement 2 defines the condition for running the code block.
+Statement 3 is executed each time after the code block has been executed.
+
+3)	Switch case?
+switch case is used to perform the different actions on different conditions.
+switch(expression) {
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default:
+        code block
+}
+The switch expression is evaluated once.
+The value of the expression is compared with the values of each case.
+If there is a match, the associated block of code is executed.
+Break : break is a keyword it stops executing the remaining code in switch case when the job is done. Break can save a lot of time because it ignores the execution of all the code.
+
+4)	If else if or nested if else statements?
+The conditional statements in javascript are if… else statements.
+If
+If.. else 
+If… else if statements.
+In if statement is the fundamental control statement that allows JavaScript to make decisions and execute statements conditionally.
+Ex: if( x > 0)
+{
+Statements; //if condition is true then statement will be executed.
+}
+In if else, the condition is given in if statement if the expression is true it will be executed or else it return to the else statement.
+Ex: if( a = 0)
+{
+Console.log(“ print a”, a);
+} else {
+Console.log(“ not equal to 0”);
+}
+If..else if statements are the advanced stage of if else statements, to make correct decision out of several conditions.
+Ex: if (expression 1){
+   Statement(s) to be executed if expression 1 is true
+}else if (expression 2){
+   Statement(s) to be executed if expression 2 is true
+}else if (expression 3){
+   Statement(s) to be executed if expression 3 is true
+}else{
+   Statement(s) to be executed if no expression is true
+}
+
+5)	Printing natural numbers?

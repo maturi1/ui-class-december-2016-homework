@@ -1,0 +1,103 @@
+Homework 2:
+1.	Write a program in javascript to print the least value of variables a and b? (flow chart and program)?
+2.Difference b/w == and ===?
+== displays the comparison of the given value.
+Ex: var x = 3;
+      X == 5;
+The output is false as 3 is not equal to 5.
+=== display the value of comparison of same type.
+Ex: var x = 1;
+      Var y = 2;
+       X === 1;
+       Y === “2”;
+The output is true and false. In the second statement the type is not equal to the y value.
+
+3.	Logical and (&&) , logical or (||) , logical not(!)
+Logical and(&&) operator returns true if both the expressions are true or else it returns false.
+Ex: var x = 3;
+       Var y = 5;
+(x >1 && y>1); 
+output: true because in this both statements are true.
+(x<1 && y>1)
+Output: false , in this both statements are not true. So it will shown as false.
+               Logical or(||) operator returns true when any one of the expression is true, or else false.
+               Ex: var x=4;
+                      Var y=3;
+                   (x ===3 || y ===3);
+              Output: true because one of the expression is true so it shows true.
+Logical not(!) operator returns true for false statements and false for true statements.
+Ex: 
+<script>
+ var x = 3;
+        Var y = 4;
+document.getElementById("demo").innerHTML = !(x == y) + “<br>” + !(x < y); 
+</script>
+The output is true
+                         false
+
+4.	Decimal to hexa decimal conversion 45?
+1.Divide the decimal number by 16.   Treat the division as an integer division.  
+2.Write down the remainder (in hexadecimal).
+3.Divide the result again by 16.  Treat the division as an integer division.  
+4.Repeat step 2 and 3 until result is 0.
+5.The hex value is the digit sequence of the remainders from the last to first.
+45:    45/16  = 2.813
+          The remainder 0.813 is divided by 16 which is 13 i.e., D in hexadecimal. So final answer is 2D.           45 = 2D.
+
+5.	Hexa decimal to decimal FF?
+1.Get the last digit of the hex number, call this digit the currentDigit.  
+2.Make a variable, let's call it power.  Set the value to 0.
+3.Multiply the current digit with (16^power), store the result.
+4.Increment power by 1.
+5.Set the the currentDigit to the previous digit of the hex number.
+6.Repeat from step 3 until all digits have been multiplied.
+7.Sum the result of step 3 to get the answer number.
+FF:  in hexadecimal F decimal value is 15.
+       F     F
+      15   15
+       15*16^1 + 15*16^0   
+      = 15*16 + 15*1
+      = 240 + 15
+FF      = 255
+
+6.	Hexadecimal to octal 23?
+To convert hexadecimal to octal first we need to convert the hexadecimal number to the decimal form and from decimal form to octal.
+Follow the steps of hexadecimal to decimal form. After that
+Step 1: Divide the decimal number with 8
+Step 2: Note down the remainder
+Step 3: Continue step 1 and 2 with the quotient, until the quotient is zero
+Step 4: Write the remainders in reverse order
+Step 5: The obtained number is the required result.
+
+23:     convert hexadecimal to decimal form.
+           23 = 2*16^1 + 3*16^0
+                = 32 + 3 
+                = 35
+     The decimal form of 23 is 35.
+Now convert decimal to octal.
+35         35/8      result :  4         remainder : 3
+              4/8                       0                              4
+The octal number is 43.
+
+
+7.	Octal to hexadecimal 76?
+Step 1: Let the number of digits in the number be n
+Step 2: Multiply the digits with 8n-1where n is position of digit from the right end of the number. 
+Step 3: Add the terms after multiplication
+Step 4: The obtained number is equivalent decimal number to the given octal
+Step 5: Consider the decimal number,divide it by 16
+Step 6: Note the remainder.
+Step 7: Continue the process till the quotient in zero
+Step 8: Write the remainder in the reverse order
+Step 9: The obtained number is equivalent hexadecimal number to the given octa decimal number.
+
+76: coverting octal to decimal
+             7*8^1 + 6*8^0
+           = 56 + 6
+           = 62
+Converting decimal number 62 to hexadecimal.
+ 62:        62/16           result: 3     remainder : 14
+                3/16                         0                            3
+    62 =   3  14   where 14 is E so answer is
+         = 3E 
+ Hexadecimal number of 62 is 3E

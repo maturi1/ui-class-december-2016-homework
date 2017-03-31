@@ -1,0 +1,53 @@
+1.	What is restful web services?
+Restful web services are basically known as REST architecture web service in which everything in this architecture are consider as a resource. REST architecture is light weight, easily scalable and maintained. These are commonly used to create APIs for web applications. REST stands for REpresentational State Transfer; it uses http protocol for data communication. Every resource is accessed by a common interface by using HTTP methods. Most commonly used HTTP methods are GET: It provides only a read access to the resource.
+       PUT: it creates a new resource.
+       DELETE:  it removes a resource.
+       POST: it will update the existing resource or create a new resource.
+       OPTIONS: to get supported operations on a resource.
+Web services based on REST architecture is known as restful web services. A RESTful web service usually defines a URI (Uniform Resource Identifier), which is a service that provides resource representation such as JSON and a set of HTTP Methods.
+
+2.	What is ajax?
+AJAX is not a programming language. It is a technique for accessing web servers from a web page. AJAX stands for Asyncronous JavaScript and XML. AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page. The XMLHttpRequest object is used to exchange data with a server behind the scenes.
+      variable = new XMLHttpRequest()
+
+3.	Why do we use ajax in our webpages? 
+Ajax is used to exchange the data with the server and updates the webpages without refreshing. The main use of ajax in webpages has many benefits, they are:
+	Ajax is used to perform a callback, making a quick round trip to and from the server to retrieve and/or save data without posting the entire page back to the server. By using callbacks, the server is not required to process all form elements. By sending only the necessary data, there is limited processing on the server. There is no need to process all form elements, process the ViewState, send images back to the client, or send a full page back to the client. 
+	Ajax allows you to make asynchronous calls to a web server. This allows the client browser to avoid waiting for all data to arrive before allowing the user to act once more.
+	User-Friendly: Because a page postback is being eliminated, Ajax enabled applications will always be more responsive, faster and more user-friendly.
+	The main purpose of Ajax is to improve the speed, performance and usability of a web application.
+4.	What http methods and describe about when to use what?
+The following are the http methods most commonly used in REST are
+       GET: It provides only a read access to the resource.
+             http://localhost:8080/UserManagement/rest/UserService/users
+              Gets the list of users. (Read Only)
+       PUT: it creates a new resource.
+http://localhost:8080/UserManagement/rest/UserService/users/2
+Inserts User with Id 2
+(Idempotent)
+
+       DELETE:  it removes a resource.
+http://localhost:8080/UserManagement/rest/UserService/users/1
+Deletes the User with Id 1
+(Idempotent)
+
+       POST: it will update the existing resource or create a new resource.
+http://localhost:8080/UserManagement/rest/UserService/users/2
+Updates the User with Id 2
+(N/A)
+
+       OPTIONS: to get supported operations on a resource.
+http://localhost:8080/UserManagement/rest/UserService/users
+Lists out the supported operations in a web service.
+  (Read Only)
+GET operations are read only and are safe.
+PUT and DELETE operations are idempotent, which means their result will always be the same, no matter how many times these operations are invoked.
+PUT and POST operation are nearly the same with the difference lying only in the result where the PUT operation is idempotent and POST operation can cause a different result.
+5.	What are the http status codes?
+The following are the http status codes which means The first digit of the status code specifies one of five classes of response; an HTTP client must recognize these five classes at a minimum.
+2xx:
+This class of status codes indicates the action requested by the client was received, understood, accepted, and processed successfully.
+200: ok Standard response for successful HTTP requests.
+201: created. The request is successful in creating the new resource.
+202: accepted. The request is accepted for processing but it is not completed. 
+

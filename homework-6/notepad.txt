@@ -1,0 +1,36 @@
+Homework 6:
+1.	Different types in css?
+CSS stands for cascading style sheets. CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed.
+Inline styles:
+Inline styles are styles that are written directly in the tag on the document. Inline styles affect only the tag they are applied to.
+<a href="" style="text-decoration: none;">
+Embedded styles:
+Embedded styles are styles that are embedded in the head of the document. Embedded styles affect only the tags on the page they are embedded in.
+<style type="text/css">
+p { color: #00f; }
+</style>
+External styles:
+External styles are styles that are written in a separate document and then attached to various Web documents. External style sheets can affect any document they are attached to.
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+2.	What is cascading in css?
+"Cascading" means that styles can fall (or cascade) from one style sheet to another, enabling multiple style sheets to be used on one HTML document.
+the simplest HTML document may have three or more style sheets associated with it including:
+The browser's style sheet
+The user's style sheet
+The author's style sheet
+
+3.	Why do we need to use css?
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. 
+
+4.	Which type of css is better practice?
+External styles:
+External styles are styles that are written in a separate document and then attached to various Web documents. External style sheets can affect any document they are attached to.
+<link rel="stylesheet" type="text/css" href="styles.css" />
+Best to use external style sheets for styling web pages so that most benefit of cascading and inheritance.
+
+5.	What are selectors and why do we need them in css?
+CSS selectors are used to find HTML elements based on their element name, id, class, attribute, and more.
+The element selector selects elements based on the element name.
+The id selector uses the id attribute of an HTML element to select a specific element.
+The class selector selects elements with a specific class attribute.

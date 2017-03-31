@@ -1,0 +1,102 @@
+Homework 13
+Explain with examples?
+1.	Operational precedence?
+It means the operators with higher priority will evaluate first. Addition subtraction multiplication division module these are all the arithmetic operations.
+Multiplication and division has the highest priority than the addition and subtraction.
+Precedence can be changed if we use parenthesis between the numbers then it has highest priority.
+Ex: var x = 25 * 4 + 1;
+The output will be 101 as first multiplication will be evaluated b/w 25 and 4 then the result will be added by 1. Result will be 101.
+Var x = 25 * (4 + 1);
+In this case output will be 125 as it provides parenthesis b/w 4 and 1, so it evaluate first and multiplied by 25.
+
+2.	Truthy value and falsy value?
+Following are the falsy values.
+0, null, undefined, false, NaN (not a number), “”(empty string)
+All other values are truthy, including "0" (zero in quotes), "false" (false in quotes), empty functions, empty arrays, and empty objects.
+Ex: var x = (null == undefined); // true.
+       Var y= (null == null); // true.
+        Var z= (null == false); //false.
+Use strict equal (===) and strict not equal (!==) in situations where truthy or falsy values could lead to logic errors.
+Ex: var x = (false == 0;) //true
+      Var x = (false === 0); //false
+
+3.	Logical and (&&) and logical or(||)?
+Logical and(&&) operator returns true if both the expressions are true or else it returns false.
+Ex: var x = 3;
+       Var y = 5;
+(x >1 && y>1); 
+output: true because in this both statements are true.
+(x<1 && y>1)
+Output: false , in this both statements are not true. So it will shown as false.
+               Logical or(||) operator returns true when any one of the expression is true, or else false.
+               Ex: var x=4;
+                      Var y=3;
+                   (x ===3 || y ===3);
+              Output: true because one of the expression is true so it shows true.
+4.	Conditions in javascript?
+The conditional statements in javascript are if… else statements.
+If
+If.. else 
+If… else if statements.
+In if statement is the fundamental control statement that allows JavaScript to make decisions and execute statements conditionally.
+Ex: if( x > 0)
+{
+Statements; //if condition is true then statement will be executed.
+}
+In if else, the condition is given in if statement if the expression is true it will be executed or else it return to the else statement.
+Ex: if( a = 0)
+{
+Console.log(“ print a”, a);
+} else {
+Console.log(“ not equal to 0”);
+}
+If..else if statements are the advanced stage of if else statements, to make correct decision out of several conditions.
+Ex: if (expression 1){
+   Statement(s) to be executed if expression 1 is true
+}else if (expression 2){
+   Statement(s) to be executed if expression 2 is true
+}else if (expression 3){
+   Statement(s) to be executed if expression 3 is true
+}else{
+   Statement(s) to be executed if no expression is true
+}
+5.	Increment and decrement?
+Increment: increase an integer value by one. It defines as ++
+Ex: var a=1;
+      a++;
+a value will be incremented and output is 2.
+Decrement: decreases an integer value by one. It defines as –
+Ex: var a=1;
+       a--;
+a value will be 0.
+
+6.	Loops(while, do while, for loop)?
+While loop: The while loop loops through a block of code if a specified condition is true.
+Syntax: while (condition)
+{
+Statements to be executed
+}
+Ex: while (i < 10) {
+    Console.log( "The number is " + i);
+    i++;
+}
+Do while loop: This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop if the condition is true.
+do{
+code to be executed;
+} while (condition);
+Ex: var i=0;
+       do {
+Console.log(“ the number is” i);
+} while (i<5);
+
+              For loop:  to run the same code again and again without changing the code but with different value then we will use loops. For loop is one of them which through a block of code a number of times.
+            Syntax: 
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+Statement 1 is executed before the code block starts.
+Statement 2 defines the condition for running the code block.
+Statement 3 is executed each time after the code block has been executed.
+                 
+
+

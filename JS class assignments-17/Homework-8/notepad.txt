@@ -1,0 +1,109 @@
+homework 8: 
+
+1)practice all the string methods and examples of how to use them?
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/
+ String.prototype.charAt()
+Returns the character at the specified index.
+String.prototype.charCodeAt()
+Returns a number indicating the Unicode value of the character at the given index.
+String.prototype.codePointAt()
+Returns a non-negative integer that is the UTF-16 encoded code point value at the given position.
+String.prototype.concat()
+Combines the text of two strings and returns a new string.
+String.prototype.includes()
+Determines whether one string may be found within another string.
+String.prototype.endsWith()
+Determines whether a string ends with the characters of another string.
+String.prototype.indexOf()
+Returns the index within the calling String object of the first occurrence of the specified value, or -1 if not found.
+String.prototype.lastIndexOf()
+Returns the index within the calling String object of the last occurrence of the specified value, or -1 if not found.
+String.prototype.localeCompare()
+Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.
+String.prototype.match()
+Used to match a regular expression against a string.
+String.prototype.normalize()
+Returns the Unicode Normalization Form of the calling string value.
+String.prototype.padEnd() 
+Pads the current string from the end with a given string to create a new string from a given length.
+String.prototype.padStart() 
+Pads the current string from the start with a given string to create a new string from a given length.
+String.prototype.quote() 
+Wraps the string in double quotes (""").
+String.prototype.repeat()
+Returns a string consisting of the elements of the object repeated the given times.
+String.prototype.replace()
+Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring.
+String.prototype.search()
+Executes the search for a match between a regular expression and a specified string.
+String.prototype.slice()
+Extracts a section of a string and returns a new string.
+String.prototype.split()
+Splits a String object into an array of strings by separating the string into substrings.
+String.prototype.startsWith()
+Determines whether a string begins with the characters of another string.
+String.prototype.substr()
+Returns the characters in a string beginning at the specified location through the specified number of characters.
+String.prototype.substring()
+Returns the characters in a string between two indexes into the string.
+String.prototype.toLocaleLowerCase()
+The characters within a string are converted to lower case while respecting the current locale. For most languages, this will return the same as toLowerCase().
+String.prototype.toLocaleUpperCase()
+The characters within a string are converted to upper case while respecting the current locale. For most languages, this will return the same as toUpperCase().
+String.prototype.toLowerCase()
+Returns the calling string value converted to lower case.
+String.prototype.toSource() 
+Returns an object literal representing the specified object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
+String.prototype.toString()
+Returns a string representing the specified object. Overrides the Object.prototype.toString() method.
+String.prototype.toUpperCase()
+Returns the calling string value converted to uppercase.
+String.prototype.trim()
+Trims whitespace from the beginning and end of the string. Part of the ECMAScript 5 standard.
+String.prototype.trimLeft() 
+Trims whitespace from the left side of the string.
+String.prototype.trimRight() 
+Trims whitespace from the right side of the string.
+String.prototype.valueOf()
+Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method.
+String.prototype[@@iterator]()
+Returns a new Iterator object that iterates over the code points of a String value, returning each code point as a String value.
+
+
+2) practice all the number methods and examples of how to use them?
+ Number.isNaN()
+Determine whether the passed value is NaN.
+Number.isFinite()
+Determine whether the passed value is a finite number.
+Number.isInteger()
+Determine whether the passed value is an integer.
+Number.isSafeInteger()
+Determine whether the passed value is a safe integer (number between -(253 - 1) and 253 - 1).
+Number.toInteger() 
+Used to evaluate the passed value and convert it to an integer (or Infinity), but has been removed.
+Number.parseFloat()
+The value is the same as parseFloat() of the global object.
+Number.parseInt()
+The value is the same as parseInt() of the global object.
+Number instances
+All Number instances inherit from Number.prototype. The prototype object of the Number constructor can be modified to affect all Number instances.
+
+Methods
+Number.prototype.toExponential()
+Returns a string representing the number in exponential notation.
+Number.prototype.toFixed()
+Returns a string representing the number in fixed-point notation.
+Number.prototype.toLocaleString()
+Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
+Number.prototype.toPrecision()
+Returns a string representing the number to a specified precision in fixed-point or exponential notation.
+Number.prototype.toSource() 
+Returns an object literal representing the specified Number object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
+Number.prototype.toString()
+Returns a string representing the specified object in the specified radix (base). Overrides the Object.prototype.toString() method.
+Number.prototype.valueOf()
+Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method.
+
+3) how to add new methods into String prototype? procedure for doing that? 
+ add a method : String.prototype.myReapeat(str), String.prototype.myIndexOf(str)
+ 

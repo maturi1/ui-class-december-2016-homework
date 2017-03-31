@@ -1,0 +1,108 @@
+Homework 8:
+1.what are psuedo classes?
+Psuedo classes are combine with css and defines special state of an element.
+Syntax:  selector:pseudo-class {
+    property:value;
+}
+<style>
+a.highlight:hover {
+    color: blue;
+} 
+</style> 
+When we hover on any style the color of the link will be changed.
+Hover on <div>
+<style>
+div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+div:hover {
+    background-color: blue;
+}
+</style>
+In this example when we move the mouse over the div element the color will changes to blue.
+Simple tooltip hover:
+When we want to move the cursor to the div element then it will display <p> element.
+:first-child pseudo-class matches a specified element that is the first child of another element.
+the selector matches the first <i> element in all <p> elements:
+<style>
+p i:first-child {
+    color: blue;
+} 
+</style>
+</head>
+<body>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+</body> 
+The output will be the first strong word will turn to blue in each sentence. Because it is the first child of the <p> element.
+the selector matches all <i> elements in <p> elements that are the first child of another element.
+By using the above example the selector will display all strong words in blue color in first <p> element. It displays all child elements in a <p> element.
+The :lang pseudo-class allows you to define special rules for different languages.
+<style>
+q:lang(no) {
+    quotes: "~" "~";
+}
+</style>
+In this example the :lang will display in between the text wherever we want.
+These are most important psuedo classes there are many pseudo classes will available in css.
+:active, :target , : valid, :hover :in-range, :empty, :enabled, :disabled
+
+2.what are pseudo elements in css?
+Pseudo elements are used to style specific parts of an elements.
+::after	      p::after	Insert content after every <p> element
+<style>
+h1::after {
+    content: url(smiley.gif);
+}
+</style>
+Here after the head line smiley symbol will be displayed.
+::before	      p::before	Insert content before every <p> element
+<style>
+h1::before {
+    content: url(smiley.gif);
+}
+</style>
+Here before the head line smiley symbol will be displayed.
+::first-letter	p::first-letter	Selects the first letter of every <p> element
+<style>
+p::first-letter {
+    color: red;
+    font-size: large;
+}
+</style>
+::first-line	p::first-line	Selects the first line of every <p> element
+<style>
+p::first-line {
+    color: blue;
+    font-variant: small-caps;
+}
+</style>
+::selection	p::selection	Selects the portion of an element that is selected by a user
+::selection {
+    color: red;
+    background: yellow;
+}
+If we select a code, it will change the color of the text while selecting.
+3.difference between pseudo classes and elements?
+Pseudo classes are all about the user moves the cursor on any webpage on a specified link it will blinks and changes the text to different colors. By using pseudo classes, we can make many changes and display different styles on a webpage. When the user will use mouse on a line it changes the display of it.
+In pseudo elements we can add the text, color and any images on a webpage content.
+5.what are media queries in css and how can we use them?
+Media queries are used to check many things like the width length and the capacity of a device. It contains media type and many expressions.
+@media not|only mediatype and (expressions) {
+    CSS-Code;
+}
+It returns true when specified matches are satisfied and all the media types are matched. Some of the media types are:
+all	      Used for all media type devices
+print	      Used for printers
+screen  	      Used for computer screens, tablets, smart-phones etc.
+speech	       Used for screenreaders that "reads" the page out loud.
+@media screen and (min-width: 380px) {
+    body {
+        background-color: lightgreen;
+    }
+The output will be seen if we resize our window it shows the effect.
+
+6.what is responsive web page?
+The responsive web design is used to look good webpage on any devices. It is used only in html and css. With this design, we can display the webpage colorfully on any device like phone, laptop, tablet etc. every device had a different screen dimensions so to adjust the webpage in different devices we use responsive web design.

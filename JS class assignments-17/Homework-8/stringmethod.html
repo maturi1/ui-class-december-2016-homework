@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+var text = "javascript";
+var result = text.length; //display the length of a string
+console.log(result);
+var text1 = "hello everyone how are you";
+var result1 = text1.indexOf("how"); //display the index number of the given string
+console.log(result1);
+var result1 = text1.lastIndexOf("how"); // returns the last occurence of a specified string.
+console.log(result1);
+var result1 = text1.search("you"); //search the string and return a value.
+console.log(result1);
+var s = "apple, banana, orange";
+var r = s.slice(0,8); // it takes start and end positions and returns extracted part of the strings.
+console.log(r);
+var r = s.slice(-6,-1); // slice accepts negative values also. it counts from the last to first.
+console.log(r);
+var r = s.substring(10,16); //substring is same as slice but it doesnot accept negative values.
+console.log(r);
+var r = s.substr(8,7); //substr() method extract a part of a string and returns the remaining string.
+console.log(r);
+var r = s.replace("apple","grapes"); //replaces the value with another value.
+console.log(r);
+var r = s.toUpperCase(); // converts entire string to capital letters.
+console.log(r);
+var r = s.toLowerCase(); //converts entire string to small letters.
+console.log(r);
+var text2 = text1.concat("", text); //concat combines two different strings.
+console.log(text2);
+var r = s.charAt(2); //return the character at specified index position.
+console.log(r);
+var r = s.charCodeAt(7); // returns the unicode of the specified string index.
+console.log(r);
+var r = s.split(",");   // string can be converted to array by split() method.
+ r = s.split("");
+ console.log(r);
+ var y = '          food        ';
+ console.log(y.trim()); // returns the string stripped of whitespace from both ends. trim() does not affect the value of the string itself.
+ var str = "A string can be any text inside quotes You can use single or double quotes."
+ var r1 = str.repeat(5);
+ console.log(r1);
+</script>
+</body>
+</html>
